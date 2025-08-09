@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+.venv/
+.venv*/
+.env
+.env.*
+venv/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert*
+profile_default/
+*.nbconvert.ipynb
+
+# Data
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+
+# Power BI cache/temp
+*.tmp
+*.tmp.pbix
+
+# VSCode
+.vscode/
+.settings/
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
